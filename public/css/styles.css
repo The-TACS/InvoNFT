@@ -1,0 +1,287 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography */
+body {
+    font-family: Arial, sans-serif;
+    background-color:dimgray;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin-left: 20px;
+}
+
+.navbar .nav-links a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+    color: #007BFF;
+}
+
+/* Main Content */
+.main-content {
+    padding: 40px 0;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('../assets/images/hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Forms */
+.form-section {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-section h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section input,
+.form-section select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-section button {
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-section button:hover {
+    background-color: #0056b3;
+}
+
+.form-section p {
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+}
+
+/* Profile */
+.profile-section {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-section h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.profile-section p {
+    margin-bottom: 10px;
+}
+
+.nft-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* NFT Cards */
+.nft-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nft-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.nft-card .nft-info {
+    padding: 15px;
+}
+
+.nft-card .nft-info h3 {
+    margin-bottom: 10px;
+}
+
+.nft-card .nft-info p {
+    margin-bottom: 10px;
+}
+
+.nft-card .nft-info .price {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.nft-card .nft-info button {
+    padding: 8px 12px;
+    background-color: #28a745;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.nft-card .nft-info button:hover {
+    background-color: #218838;
+}
+
+/* Investor Sections */
+.investor-section {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.investor-section h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.investor-section p {
+    margin-bottom: 15px;
+}
+
+.features-list {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+/* Education Section */
+.education-section {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.education-section h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.material-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.material-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.material-item h3 {
+    margin-bottom: 10px;
+}
+
+.material-item p {
+    margin-bottom: 15px;
+}
+
+.material-item .btn {
+    background-color: #17a2b8;
+}
+
+.material-item .btn:hover {
+    background-color: #117a8b;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .container p {
+    margin: 0;
+}
+.abc{
+border: solid black 2px;
+}

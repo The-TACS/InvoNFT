@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify Account - NFT Marketplace</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">NFT Marketplace</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="marketplace.html">Marketplace</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Verification Form -->
+    <main class="main-content">
+        <section class="form-section">
+            <h2>Verify Your Account</h2>
+            <form id="verifyForm" enctype="multipart/form-data">
+                <select id="documentType" name="documentType" required>
+                    <option value="">Select Document Type</option>
+                    <option value="passport">Passport</option>
+                    <option value="driver_license">Driver License</option>
+                    <option value="aadhar">Aadhar</option>
+                    <!-- Add more as needed -->
+                </select>
+                <input type="file" id="documentFile" name="documentFile" accept=".jpg,.jpeg,.png,.pdf" required>
+                <button type="submit" class="btn">Submit Verification</button>
+            </form>
+            <p id="verifyMessage"></p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 NFT Marketplace. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
