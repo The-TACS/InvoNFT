@@ -1,3 +1,5 @@
+project build during the NEOX Grind Hackathon, dlf gurgaon, getting us in the top 20 teams.
+
 #1 visions :
 => Complex User Interfaces : Overly complicated interfaces can be daunting for new users, making it difficult for them to navigate, buy, sell, or trade NFTs effectively.
 
